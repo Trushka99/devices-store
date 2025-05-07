@@ -1,0 +1,13 @@
+.form__layer {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 30px;
+  padding: 72px 0 62px 134px;
+  position: relative;
+}
+@media screen and (max-width: 900px) {
+  .form__layer {
+    padding: 72px 0 62px 0;
+  }
+}

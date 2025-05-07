@@ -1,0 +1,12 @@
+.footer__icons {
+  display: flex;
+  gap: 32px;
+}
+@media screen and (max-width: 900px) {
+  .footer__icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+}

@@ -1,0 +1,26 @@
+.main-container__image {
+  width: 763px;
+  height: 1009px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+@media screen and (max-width: 900px) {
+  .main-container__image {
+    opacity: 0.3;
+    top: -50;
+    left: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-container__image {
+    height: 796px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-container__image {
+    height: 734px;
+  }
+}

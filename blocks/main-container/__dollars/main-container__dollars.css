@@ -1,0 +1,15 @@
+.main-container__dollars {
+  font-family: Prata;
+  font-size: 40px;
+  font-weight: normal;
+}
+@media screen and (max-width: 600px) {
+  .main-container__dollars {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-container__dollars {
+    font-size: 18px;
+  }
+}

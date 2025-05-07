@@ -1,0 +1,10 @@
+.main-container {
+  background-color: rgb(34, 34, 34);
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 600px) {
+  .main-container {
+    padding: 10% 0 10% 0;
+  }
+}

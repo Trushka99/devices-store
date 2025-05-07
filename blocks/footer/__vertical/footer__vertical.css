@@ -1,0 +1,12 @@
+.footer__vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 135px;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .footer__vertical {
+    align-items: start;
+  }
+}

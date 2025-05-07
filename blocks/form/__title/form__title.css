@@ -1,0 +1,10 @@
+.form__title {
+  font-family: Prata;
+  font-size: 54px;
+  width: 70%;
+  margin-bottom: 45px;
+  color: black;
+  font-weight: normal;
+
+  line-height: 110%;
+}

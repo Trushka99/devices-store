@@ -1,0 +1,6 @@
+.benefits {
+  background-color: rgb(40, 40, 41);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}

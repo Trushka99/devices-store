@@ -1,0 +1,13 @@
+.benefits__container {
+  width: 40%;
+}
+@media screen and (max-width: 1200px) {
+  .benefits__container {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .benefits__container {
+    width: 100%;
+  }
+}

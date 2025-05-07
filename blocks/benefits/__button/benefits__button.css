@@ -1,0 +1,16 @@
+.benefits__button {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  height: 78px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.benefits__button:hover {
+  opacity: 0.6;
+}

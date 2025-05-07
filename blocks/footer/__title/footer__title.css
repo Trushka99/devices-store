@@ -1,0 +1,13 @@
+.footer__title {
+  font-family: Prata;
+  font-size: 36px;
+  letter-spacing: 3%;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+@media screen and (max-width: 600px) {
+  .footer__title {
+    font-size: 25px;
+  }
+}

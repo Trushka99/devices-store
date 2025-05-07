@@ -1,0 +1,15 @@
+.benefits__images {
+  width: 30%;
+  object-fit: cover;
+  height: 90vh;
+}
+@media screen and (max-width: 1200px) {
+  .benefits__images {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .benefits__images {
+    display: none;
+  }
+}

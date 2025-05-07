@@ -1,0 +1,18 @@
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+  width: 83%;
+  margin: 0 auto;
+  height: 233px;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .footer__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+    padding: 10% 0 10% 0;
+    height: 100%;
+  }
+}

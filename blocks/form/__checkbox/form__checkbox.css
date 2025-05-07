@@ -1,0 +1,22 @@
+.form__checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 19px;
+  gap: 8px;
+  color: black;
+  margin: 19px 0 32px 0;
+  line-height: 130%;
+}
+.form__checkbox input {
+  display: none;
+}
+.form__checkbox input:checked + .form__custom-checkbox::after {
+  content: "✓";
+  position: absolute;
+  left: 3px;
+  top: -2px;
+  font-size: 18px;
+  color: #000000;
+}

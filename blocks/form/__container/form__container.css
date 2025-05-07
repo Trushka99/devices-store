@@ -1,0 +1,10 @@
+.form__container {
+  width: 46.5%;
+  color: black;
+}
+@media screen and (max-width: 900px) {
+  .form__container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

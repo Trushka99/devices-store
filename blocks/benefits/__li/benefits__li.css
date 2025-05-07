@@ -1,0 +1,16 @@
+.benefits__li {
+  padding: 40px 0 40px 0;
+  border-bottom: 1px solid rgb(85, 86, 90);
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  gap: 20px;
+}
+.benefits__li:nth-last-of-type(1) {
+  border-bottom: none;
+}
+@media screen and (max-width: 600px) {
+  .benefits__li {
+    font-size: 18px;
+  }
+}

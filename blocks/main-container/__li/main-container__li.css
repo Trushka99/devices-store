@@ -1,0 +1,16 @@
+.main-container__li {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (max-width: 600px) {
+  .main-container__li {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-container__li {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,5 @@
+.main-container__order {
+  max-width: 537px;
+  z-index: 2;
+  position: relative;
+}

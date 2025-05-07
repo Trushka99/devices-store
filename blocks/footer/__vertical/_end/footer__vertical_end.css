@@ -1,0 +1,5 @@
+@media screen and (max-width: 900px) {
+  .footer__vertical_end {
+    align-items: end;
+  }
+}

@@ -1,0 +1,7 @@
+.main-container__list {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  list-style: none;
+  margin: 64px 0 40px 0;
+}
